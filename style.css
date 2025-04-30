@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player1 {
+    background-color: red;
+    color: white;
+}
+
+.player2 {
+    background-color: blue;
+    color: white;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}
